@@ -99,6 +99,9 @@
 .flex-auto {
   flex: auto;
 }
+.flex-1-0-auto {
+  flex: 1 0 auto;
+}
 .flex-direction-column {
   flex-direction: column;
 }
@@ -147,6 +150,9 @@
 }
 .z-index-30 {
   z-index: 30;
+}
+.overflow-auto {
+  overflow: auto;
 }
 .scroll {
   overflow-x: auto;

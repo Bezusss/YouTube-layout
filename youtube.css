@@ -1,0 +1,52 @@
+/* Контейнер хеда */
+/* Главная надписть YouTube */
+.YT {
+  flex: 0 0 90px;
+}
+/* Строка поиска */
+.input-search {
+  border: solid 1px #dbdbdb;
+  /* width: 400px; */
+  height: 36px;
+}
+/* Кнопка поиска */
+.header-icon-button {
+  background-color: #dbdbdb;
+  border: solid #dbdbdb 1px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+/* SVG images */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* #Items button:hover {
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+} */
+.left-menu-button {
+  height: 74px;
+}
+.left-menu-button:hover {
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+.top-menu-button {
+  height: 32px;
+  min-width: 12px;
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  border-color: #dbdbdb;
+}
+.top-menu-button:hover {
+  background-color: grey;
+  border-radius: 10px;
+}

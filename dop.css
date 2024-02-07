@@ -1,0 +1,177 @@
+/* Размер шрифта */
+.fs-08rem {
+  font-size: var(--fs-08rem);
+}
+.fs-1rem {
+  font-size: var(--fs-1rem) !important;
+}
+/* Размер Шрифта для надписи */
+.fs-14rem {
+  font-size: var(--fs-14rem);
+}
+.fs-16rem {
+  font-size: var(--fs-16rem);
+}
+/* Округление иконок и элементов */
+.br-8px {
+  border-radius: var(--br-8px);
+}
+.br-10px {
+  border-radius: var(--br-10px);
+}
+.br-40px {
+  border-radius: var(--br-40px);
+}
+/* Радиус кнопок */
+.br-50per {
+  border-radius: var(--br-50per);
+}
+
+/* Цвет надписи */
+.color-red {
+  color: red;
+}
+
+/* Для кнопок с права */
+.bg-white {
+  background-color: white;
+}
+.bg-grey {
+  background-color: #dbdbdb;
+}
+.button:hover {
+  background-color: gray;
+}
+.border-search {
+  border: solid 1px #dbdbdb;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  /* box-shadow: 0px 1px 0px 1px; */
+}
+.border-search-button {
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  /* box-shadow: 0px 1px 0px 1px; */
+}
+/* Поисковая строка с кнопкой выравнивание */
+/* .flex-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+} */
+/* Вечерний флекс */
+.flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.gap-5px {
+  gap: var(--gap-5px);
+}
+.gap-10px {
+  gap: var(--gap-10px);
+}
+.gap-50px {
+  gap: var(--gap-50px);
+}
+/* Высота элемента */
+.height-7 {
+  height: var(--height-74px);
+}
+.height-4 {
+  height: var(--height-40px);
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.flex-wrap-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-auto {
+  flex: auto;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.align-items-flex-start {
+  align-items: flex-start;
+}
+.justify-content-start {
+  justify-content: baseline;
+}
+.display-inline-block {
+  display: inline-block;
+}
+.position-fixed {
+  position: fixed;
+}
+.top-0 {
+  top: 0;
+}
+.width-100 {
+  width: 100%;
+}
+.but:hover {
+  border: 1px solid grey;
+  background-color: grey;
+  border-radius: 10px;
+}
+.border-0 {
+  border: 0;
+}
+.images {
+  max-width: 484px;
+  max-height: 272px;
+  border-radius: 8px;
+}
+.focus-outline-none {
+  outline: none;
+}
+.z-index-10 {
+  z-index: 10;
+}
+.z-index-20 {
+  z-index: 20;
+}
+.z-index-30 {
+  z-index: 30;
+}
+.scroll {
+  overflow-x: auto;
+  scrollbar-width: 100%;
+}
+.ws-nowrap {
+  white-space: nowrap;
+}
+/* Внутренние Отступы */
+.pt-40 {
+  padding-top: 40px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pl-100 {
+  padding-left: 100px;
+}
+/* Внешние отступы */
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.ml-100 {
+  margin-left: 100px;
+}

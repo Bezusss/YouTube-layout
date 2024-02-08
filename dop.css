@@ -90,6 +90,18 @@
 .height-4 {
   height: var(--height-40px);
 }
+/* Задаем высоту боди */
+.height-100vh {
+  height: 100vh;
+}
+/* Внешний отступ боди */
+.m-0 {
+  margin: 0;
+}
+/* Отступы между контейнерами боди */
+.gap-05rem {
+  gap: 0.5rem;
+}
 .justify-content-space-around {
   justify-content: space-around;
 }
@@ -154,10 +166,10 @@
 .overflow-auto {
   overflow: auto;
 }
-.scroll {
+/* .scroll {
   overflow-x: auto;
   scrollbar-width: 100%;
-}
+} */
 .ws-nowrap {
   white-space: nowrap;
 }

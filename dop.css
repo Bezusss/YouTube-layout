@@ -108,6 +108,9 @@
 .flex-wrap-nowrap {
   flex-wrap: nowrap;
 }
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
 .flex-auto {
   flex: auto;
 }

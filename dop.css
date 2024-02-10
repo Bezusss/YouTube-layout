@@ -117,6 +117,9 @@
 .flex-1-0-auto {
   flex: 1 0 auto;
 }
+.flex-0 {
+  flex: 0 0 0;
+}
 .flex-direction-column {
   flex-direction: column;
 }
@@ -195,4 +198,7 @@
 }
 .ml-100 {
   margin-left: 100px;
+}
+.color-grey {
+  color: grey;
 }

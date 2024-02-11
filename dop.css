@@ -120,6 +120,9 @@
 .flex-0 {
   flex: 0 0 0;
 }
+.flex-0-0-auto {
+  flex: 0 0 auto;
+}
 .flex-direction-column {
   flex-direction: column;
 }
@@ -201,4 +204,11 @@
 }
 .color-grey {
   color: grey;
+}
+/* Грид */
+.grid {
+  display: grid;
+}
+.grid-template-columns-repeat-3-1fr {
+  grid-template-columns: repeat(3, 1fr);
 }

@@ -197,8 +197,11 @@
         </nav>
         <!-- Main content -->
         <article
-          class="grid grid-template-columns-repeat-3-1fr gap-10px"
-          style="margin-top: 10px"
+          class="grid gap-10px"
+          style="
+            margin-top: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+          "
         >
           <div>
             <img src="images/content/cat.jpg" class="br-10px" />

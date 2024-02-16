@@ -1,0 +1,34 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Smooch+Sans:wght@100..900&display=swap");
+p {
+  font-family: "Protest Riot", sans-serif;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Honk&family=Protest+Riot&family=Smooch+Sans:wght@100..900&display=swap");
+p {
+  font-family: "Honk", system-ui;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Anta&family=Honk&family=Poiret+One&family=Protest+Riot&family=Smooch+Sans:wght@100..900&display=swap");
+p {
+  font-family: "Anta", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Honk&family=Poiret+One&family=Protest+Riot&family=Smooch+Sans:wght@100..900&display=swap");
+p {
+  font-family: "Caveat", cursive;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Poiret+One&family=Protest+Riot&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+body {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+}
+button {
+  font-family: "Roboto Mono", monospace;
+  font-style: oblique;
+  font-size: 30px;
+}

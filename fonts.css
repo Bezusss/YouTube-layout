@@ -25,10 +25,12 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 body {
   font-family: "Roboto Mono", monospace;
-  font-style: italic;
+  font-style: initial;
+  font-weight: 300;
 }
 button {
   font-family: "Roboto Mono", monospace;
-  font-style: oblique;
+  font-style: initial;
   font-size: 30px;
+  font-weight: 600;
 }

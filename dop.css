@@ -102,9 +102,18 @@
 .m-0 {
   margin: 0;
 }
-/* Общий отступ Grid контейнера */
+/* Общий отступ Grid контейнера(и не только) */
 .margin-10 {
   margin: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
 }
 /* Отступы между контейнерами боди */
 .gap-05rem {
@@ -183,6 +192,12 @@
 .overflow-auto {
   overflow: auto;
 }
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
 /* .scroll {
   overflow-x: auto;
   scrollbar-width: 100%;
@@ -191,6 +206,12 @@
   white-space: nowrap;
 }
 /* Внутренние Отступы */
+.pr-5 {
+  padding-right: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
 .pt-40 {
   padding-top: 40px;
 }

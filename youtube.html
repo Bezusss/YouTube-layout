@@ -14,18 +14,17 @@
     <link href="dop.css" type="text/css" rel="stylesheet" />
   </head>
   <body
-    style="margin: 10px"
-    class="flex height-100vh gap-05rem flex-direction-column overflow-auto"
+    class="m-0 flex height-100vh gap-05rem flex-direction-column overflow-auto"
   >
     <!-- Начало хедера -->
     <header
-      class="flex justify-content-space-around align-items-center gap-50px flex-wrap-nowrap bg-white top-0 width-100 z-index-30"
+      class="mt-10 flex justify-content-space-around align-items-center gap-50px flex-wrap-nowrap bg-white top-0 width-100 z-index-30"
     >
       <!-- <div>
         <span class="material-symbols-outlined"> menu </span> -->
 
       <!-- Главная надпись с картинкой YouTube -->
-      <div class="YT">
+      <div class="YT ml-10">
         <svg
           viewBox="0 0 90 20"
           preserveAspectRatio="xMidYMid meet"
@@ -99,9 +98,9 @@
       <!-- Конец класса -->
       <!-- Кнопка войс поиска -->
 
-      <!-- Левая часть хедера -->
+      <!-- Правая часть хедера -->
       <div
-        class="flex justify-content-center align-items-center gap-10px righthead"
+        class="mr-10 flex justify-content-center align-items-center gap-10px righthead"
       >
         <!-- Кнопка видеокамеры -->
         <button class="header-icon-button bg-white br-50per" type="submit">
@@ -122,7 +121,7 @@
       <!-- Конец хедера -->
     </header>
     <!-- Основная часть -->
-    <main class="flex flex-auto overflow-auto">
+    <main class="flex flex-auto overflow-hidden">
       <!-- Items слева -->
       <aside
         class="flex flex-direction-column gap-50px top-0 z-index-20 mt-40 bg-white"
@@ -169,7 +168,7 @@
       <!-- Items top -->
       <div class="flex flex-auto flex-direction-column overflow-auto">
         <nav
-          class="flex align-items-flex-start flex-direction-row gap-50px overflow-auto flex-0-0-auto"
+          class="flex align-items-flex-start flex-direction-row gap-50px overflow-x-auto overflow-auto flex-0-0-auto"
         >
           <button class="flex-1-0-auto top-menu-button fs-08rem">Все</button>
           <button class="flex-1-0-auto top-menu-button fs-08rem">Музыка</button>
@@ -199,7 +198,7 @@
         </nav>
         <!-- Main content -->
         <article
-          class="margin-10 grid grid-template-columns-repeat-auto-fill gap-10px justify-items-center"
+          class="m-0 pt-10 pr-5 grid grid-template-columns-repeat-auto-fill gap-10px overflow-auto"
         >
           <div class="flex flex-auto flex-direction-column gap-05rem">
             <img src="images/content/cat.jpg" class="br-10px" />
